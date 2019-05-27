@@ -7,7 +7,7 @@ module.exports = {
 
   devServer: {
     contentBase: '.',
-    port: 4008,
+    port: 4012,
     stats: 'errors-only'
   },
 
@@ -25,7 +25,7 @@ module.exports = {
         loader: 'purs-loader',
         options: {
           src: [
-            'bower_components/purescript-*/src/**/*.purs',
+            '.psc-package/**/src/**/*.purs',
             'src/**/*.purs'
           ],
           pscIde: true
@@ -37,7 +37,7 @@ module.exports = {
   resolve: {
     modules: [
       'node_modules',
-      'bower_components'
+      '.psc-package'
     ],
 
     extensions: [

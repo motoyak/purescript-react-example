@@ -1,0 +1,12 @@
+{
+  "name": "purescript-react-example",
+  "set": "psc-0.12.5-20190525",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "react-dom",
+    "console",
+    "react",
+    "web-html",
+    "psci-support"
+  ]
+}
